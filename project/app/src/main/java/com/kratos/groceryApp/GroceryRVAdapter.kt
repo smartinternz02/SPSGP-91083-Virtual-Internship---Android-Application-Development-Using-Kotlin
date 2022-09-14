@@ -3,6 +3,8 @@ package com.kratos.groceryApp
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
@@ -15,7 +17,7 @@ class GroceryRVAdapter(
         val quantityTV = itemView.findViewById<TextView>(R.id.idTVQuantity)
         val rateTV = itemView.findViewById<TextView>(R.id.idTVRate)
         val amountTV = itemView.findViewById<TextView>(R.id.idTVTotalAmount)
-        val deleteTV= itemView.findViewById<TextView>(R.id.idTVDelete)
+        val deleteTV= itemView.findViewById<ImageView>(R.id.idTVDelete)
 
 
 
